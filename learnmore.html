@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskin Robbins Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Page wrapper -->
+    <div class="max-w-[1450px] mx-auto border-x-[2px] border-[#d9bfb7] bg-white overflow-hidden">
+
+        <!-- Header -->
+        <header class="w-full border-b">
+            <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between relative">
+                <div class="flex items-center gap-2">
+                    <button class="bg-pink-600 text-white p-2 rounded-full shadow-md">
+                        <i class="fa fa-bars text-lg"></i>
+                    </button>
+                    <div class="h-8 w-px bg-pink-600"></div>
+                </div>
+
+                <!-- Center: Logo -->
+                <div class="flex-1 flex justify-center">
+                    <a href="index.html">
+                        <img src="https://www.baskinrobbins.com/etc/designs/br/images/header/br-logo-desktop-r.svg"
+                            alt="Baskin Robbins" class="h-12 w-auto hover:opacity-80 transition">
+                    </a>
+                </div>
+
+                <!-- Right: Sign Up | Login | Cart -->
+                <div class="flex items-center gap-3 text-sm font-medium">
+                    <a href="signup.html" class="hover:text-pink-600">Sign Up</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="login.html" class="hover:text-pink-600">Login</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="cart.html" class="flex items-center gap-1 text-pink-600">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span>Cart</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navbar -->
+        <nav class="bg-white">
+            <div class="max-w-7xl mx-auto px-4 md:px-6">
+                <ul
+                    class="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-2 text-[#402022] text-sm md:text-lg font-bold py-4">
+                    <li><a href="order&save.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Order
+                            Online</a></li>
+                    <li><a href="rewards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Rewards</a>
+                    </li>
+                    <li><a href="delivery.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Delivery</a>
+                    </li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our Menu</a>
+                    </li>
+                    <li><a href="giftcards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Giftcards</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Merchandise</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Find a
+                            Shop</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                            Story</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Franchising</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="relative bg-cover bg-center h-[500px]"
+            style="background-image: url('learnmore_hero_image_desktop.jpg');">
+
+        </section>
+
+
+        <div
+            class="absolute top-[56%] left-36 bg-[#402022] text-white shadow-lg p-6 w-[25%] min-w-[300px] z-10 rounded-lg">
+
+            <!-- Logo at the top overlapping the popup -->
+            <div class="absolute -top-14 left-1/2 transform -translate-x-1/2">
+                <img src="learnmorelogo.png" alt="Logo" class="h-28 w-auto object-contain">
+            </div>
+
+            <!-- Heading with space from logo -->
+            <h1 class="text-3xl font-bold text-center mt-16 mb-4">
+                Made for cosmic <br>
+                cravings
+            </h1>
+
+            <!-- Underline below heading -->
+            <div class="w-28 h-1 bg-pink-500 rounded mx-auto mb-6"></div>
+
+            <!-- Paragraph with space below heading -->
+            <p class="text-center text-white font-semibold leading-relaxed mb-8">
+                Learn your Galactic Brownie journey<br>
+                before it drifts away
+            </p>
+
+            <!-- Centered button with bottom space -->
+            <a href="order&save.html"
+                class="bg-pink-600 text-white font-semibold px-6 py-2 text-base rounded hover:bg-pink-700 transition block mx-auto mb-6 text-center">
+                Order Now
+            </a>
+        </div>
+
+        <!-- Space after popup -->
+        <div class="h-32"></div>
+        <!-- FIRST ICE CREAM SECTION: CENTERED HEADING + BUTTONS + 3-COLUMN LAYOUT -->
+        <div class="max-w-7xl mx-auto px-4 md:px-12 py-16">
+
+            <!-- Main Heading -->
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">
+                Galactic Brownie
+            </h1>
+
+            <!-- Underline -->
+            <div class="w-28 h-1 bg-pink-500 rounded mx-auto mb-6"></div>
+
+            <!-- Intro Text -->
+            <p class="text-center text-5sm  md:text-5sm text-black mb-6">
+                Initiating flavor launch in 3...2...1 blast off! Made with brownie batter ice cream,brownie
+                pieces,rainbow chips<br>
+                & chocolate ice cream swirls, this flavor will send you into sweet orbit.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex justify-center gap-8 mb-12">
+                <a href="#"
+                    class="text-black font-semibold border-b-2 border-pink-600 pb-1 hover:text-pink-700 transition">
+                    View Nutrition Info
+                </a>
+                <a href="#"
+                    class="text-black font-semibold border-b-2 border-pink-600 pb-1 hover:text-pink-700 transition">
+                    Find the Shop
+                </a>
+            </div>
+
+            <!-- 3 Column Layout -->
+            <div class="md:grid md:grid-cols-3 md:gap-8 items-center">
+
+                <!-- Left Column: Brownie Batter Ice Cream -->
+                <div class="text-center md:text-left">
+                    <h2 class="text-2xl font-bold mb-2">Brownie Batter Ice Cream</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <p class="text-gray-500 font-semibold leading-relaxed">
+                        A creamy, indulgent, out-of-this world base,<br>
+                        brownie batter icecream.
+                    </p>
+                    <h3 class="text-lg font-bold mt-6 mb-2">Brownie Pieces</h3>
+                    <hr class="border-gray-200 mb-4">
+                    <p class="text-gray-500 font-semibold leading-relaxed">
+                        Ooey gooey chunky brownie pieces mimic rocky<br>
+                        asteriods.
+                    </p>
+                </div>
+
+                <!-- Center Column: Ice Cream Image -->
+                <div class="flex justify-center relative">
+                    <div class="w-full max-w-3xl rounded-lg overflow-hidden shadow-md bg-white">
+                        <img src="learnmore image.png" alt="Ice Cream"
+                            class="w-full h-auto object-cover transition duration-300 hover:scale-105">
+                    </div>
+                </div>
+
+
+                <!-- Right Column: Rainbow Chips -->
+                <div class="text-center md:text-left mt-8 md:mt-0">
+                    <h2 class="text-2xl font-bold mb-2">Rainbow Chips</h2>
+                    <hr class="border-gray-300 mb-4">
+                    <p class="text-gray-500 font-semibold leading-relaxed">
+                        Rainbow chips as bright as the stars in the sky
+                    </p>
+                    <h3 class="text-lg font-bold mt-6 mb-2">Chocolate Swirls</h3>
+                    <hr class="border-gray-200 mb-4">
+                    <p class="text-gray-500 font-semibold leading-relaxed">
+                        Light chocolate swirls complement the chips for a visually stunning treat.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- NEW Full-Width Container BELOW the two boxes -->
+        <div class="flex w-full max-w-[1120px] mx-auto mt-28 gap-0 mb-32">
+            <!-- Left Side: Image -->
+            <div class="w-1/2 h-[450px]">
+                <img src="learnmore image2.png" alt="Left Image" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Right Side: Text with Borders (Top, Right, Bottom) -->
+            <div class="w-1/2 border-t border-r border-b border-[#d9bfb7] flex flex-col justify-start p-6"><br>
+                <h2 class="text-4xl font-bold text-[#402022] mt-2 mb-3">Gooey and Galactic</h2><br>
+                <p class="text-2sm font-medium text-[#402022] leading-relaxed text-left mb-0">
+                    Try our new Galactic Brownie Polar Pizza®,made with a double<br>
+                    fudge brownie crust,Galactic Brownie ice cream,M&M'S®,a fudge<br>
+                    drizzle & sprinkles.Join Baskin-Robbins Rewards® for an exclusive<br>
+                    saving on this treat!
+
+                </p><br>
+
+                <!-- Clickable Order Now Button with underline only under text -->
+                <div class="flex justify-left gap-4">
+                    <a href="order&save.html"
+                        class="text-black font-semibold border-b-4 border-pink-600 pb-1 hover:text-pink-700 transition">
+                        Order Now
+                    </a>
+                    <a href="joinnow.html"
+                        class="text-black font-semibold border-b-4 border-pink-600 pb-1 hover:text-pink-700 transition">
+                        Join Now
+                    </a>
+                </div>
+
+
+                <p class="text-xs font-semibold text-[#402022] mt-2 text-left"><br>
+
+                    ©2025 Mars or Affiliates.Use of M&M'S® Milk Chocolate Candies/ M&M'S® MINIS may<br>
+                    vary by location.
+            </div>
+        </div>
+
+
+        <!-- <perfect match setion> -->
+        <div class="w-full mt-24 overflow-x-auto scrollbar-thin scrollbar-thumb-pink-400 scrollbar-track-gray-200">
+            <div class="flex items-start gap-8 min-w-max pl-9 pr-8">
+
+                <!-- Left Side: Text -->
+                <div class="flex flex-col justify-start text-center flex-shrink-0">
+                    <!-- Heading -->
+                    <h2 class="text-6xl font-bold text-pink-600 leading-tight">Perfect</h2>
+                    <h2 class="text-6xl font-bold text-[#402022] leading-tight ">Match</h2>
+
+                    <!-- Description -->
+                    <p class="text-[#402022] mt-4 text-lg leading-relaxed">
+                        Explore a perfect pairing to our <br>
+                        Flavor of the Month or view our full<br>
+                        menu to find your new Flavorite.
+                    </p>
+
+                    <!-- Button -->
+                    <a href="order&save.html"
+                        class="mt-4 w-50 h-10 bg-pink-600 text-white font-semibold flex items-center justify-center rounded-md hover:bg-[#402022] transition">
+                        View Menu
+                    </a>
+
+                </div>
+
+                <!-- Right Side: Images -->
+                <div class="flex gap-11">
+                    <!-- Flavor 1 -->
+                    <div class="flex flex-col items-start flex-shrink-0 w-72">
+                        <img src="learnmore image3.png" alt="Flavor 1"
+                            class="w-72 h-[345px] object-cover rounded-md shadow-md"><br>
+
+                        <h3 class="text-sm text-[#402022] font-bold mt-2">Chocolate Chip</h3>
+
+                        <p class="text-sm  mt-2 leading-relaxed min-h-[90px]">
+                            Classic vanilla flavored ice cream<br>
+                            overflowing with semi-sweet chocolate<br>
+                            chips,made with cocoa butter.
+
+                        </p><br>
+                    </div>
+                </div>
+
+                <!-- Flavor 2 -->
+                <div class="flex flex-col items-start  flex-shrink-0">
+                    <img src="learnmore image4.png" alt="Flavor 2"
+                        class="w-72 h-[345px] object-cover rounded-md shadow-md"><br>
+                    <h3 class="text-sm font-bold text-[#402022] mt-2 ">Gold Medal Ribbon®</h3>
+                    <p class="text-sm mt-2  min-h-[90px]">
+                        Chocolate & vanilla flavored ice creams<br>
+                        win gold with luscious caramel swirls. <br>
+                    </p>
+                </div>
+
+                <!-- Flavor 3 -->
+                <div class="flex flex-col items-start flex-shrink-0">
+                    <img src="learnmore image5.png" alt="Flavor 3"
+                        class="w-72 h-[345px] object-cover rounded-md shadow-md"><br>
+                    <h3 class="text-sm font-bold text-[#402022] mt-2">Mint Chocolate Chip</h3>
+                    <p class="text-sm mt-2 min-h-[90px]">
+                        Mint flavored ice cream packed with<br>
+                        semi-sweet chocolate chips.
+                    </p>
+                </div>
+
+
+                <!-- Flavor 4 -->
+                <div class="flex flex-col items-start flex-shrink-0 mr-[-4rem]">
+                    <img src="flavour 4.png" alt="Flavor 4"
+                        class="w-72 h-[345px] object-cover rounded-md shadow-md"><br>
+                    <h3 class="text-sm font-bold text-[#402022] mt-2">Chocolate Chip Cookie Dough </h3>
+                    <p class="text-sm mt-2 min-h-[90px] ">
+                        Vanila flavored ice cream loaded with<br>
+                        cookie dough & chocolate flavored<br>
+                        chips.
+                    </p><br>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- BIG CTA / "Footer-like" Section -->
+        <section class="bg-[#d9bfb7] text-[#402022]">
+            <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-20 md:py-28">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+
+                    <!-- LEFT: Image -->
+                    <div class="md:w-1/2 flex justify-center">
+                        <img src="footer image.png" alt="BR hero image"
+                            class="w-full max-w-[520px] object-cover drop-shadow-lg" />
+                    </div>
+
+                    <!-- RIGHT: Text -->
+                    <div class="md:w-1/2 flex flex-col justify-center items-center text-center">
+                        <h3 class="text-2xl md:text-4xl font-bold leading-snug">
+                            Fast Checkout, Easy Pickup <br>
+                            Sweet Savings
+                        </h3>
+
+                        <p class="mt-2 text-base md:text-lg font-normal">
+                            with
+                        </p>
+
+                        <p class="mt-2 text-xl md:text-4xl font-bold whitespace-nowrap">
+                            Baskin-Robbins Rewards<span class="align-super text-sm">®</span> in the BR App
+                        </p>
+
+                        <p class="mt-4 text-lg text-[#402022] md:text-base max-w-[460px] leading-relaxed">
+                            Available for free on iOS and Android.
+                        </p>
+
+                        <!-- App Store + Play Store badges -->
+                        <div class="mt-6 flex justify-center gap-4">
+                            <img src="app_store.png" alt="App Store"
+                                class="h-12 md:h-14 object-contain cursor-pointer" />
+                            <img src="play_store.png" alt="Google Play"
+                                class="h-12 md:h-14 object-contain cursor-pointer" />
+                        </div>
+
+                        <!-- CTA Button (rectangular + smaller) -->
+
+                        <a href="menu.html"
+                            class="mt-4 w-80 h-10 bg-pink-600 text-white font-semibold flex items-center justify-center rounded-md hover:bg-[#402022] transition">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-[#f7f5f3] text-[#402022] text-sm">
+            <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-8">
+
+
+                <!-- Column 1 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">More Ways to BR</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Merchandise</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Mobile
+                                App</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Gift
+                                Cards</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">Join The Team</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Foundation</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Careers</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Franchising</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">Company Info</h4>
+
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Our
+                                Story</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">International</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">FAQs</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Pressroom</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Sustainability</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social & Sign Up -->
+                <div class="flex flex-col items-start"><br><br><br>
+                    <div class="flex space-x-4 text-2xl mb-3">
+                        <a href="#" class="text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-[#1DA1F2]"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-[#000000]"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p>Scoop up the latest deals, flavor updates and more.</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                        Sign Up
+                    </a>
+                </div>
+
+                <!-- Column 5: BR Logo + App Promo -->
+                <div class="flex flex-col items-center md:items-start text-center md:text-left"><br><br><br>
+                    <div class="w-28 h-14 bg-white rounded-lg flex items-center justify-center mb-4">
+                        <img src="BR icon-footer.png" alt="BR Logo" class="h-48 object-contain" />
+                    </div><br>
+                    <p class="font-semibold">Even sweeter<br>on iOS & Android</p>
+                    <p class="mt-2">Get deals, order cakes, send<br>gifts and more!</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                        Get the scoop
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Links + Copyright -->
+            <div class="border-t border-gray-300 text-xs text-gray-600">
+                <div
+                    class="max-w-[1450px] mx-auto px-6 md:px-12 py-4 flex flex-wrap justify-center items-center gap-2 text-center">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Web Accessibility</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Terms of Use</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Your Privacy Choices</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Site Map</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">CA Transparency in Supply Chains Act</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Customer Health Data Notice</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Cookie Settings</a>
+                </div>
+                <p class="text-center pb-4">
+                    TM & © 2025 BR IP Holder LLC. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

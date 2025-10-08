@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskin Robbins Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Page wrapper -->
+    <div class="max-w-[1450px] mx-auto border-x-[2px] border-[#d9bfb7] bg-white overflow-hidden">
+
+        <!-- Header -->
+        <header class="w-full border-b">
+            <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between relative">
+                <div class="flex items-center gap-2">
+                    <button class="bg-pink-600 text-white p-2 rounded-full shadow-md">
+                        <i class="fa fa-bars text-lg"></i>
+                    </button>
+                    <div class="h-8 w-px bg-pink-600"></div>
+                </div>
+
+                <!-- Center: Logo -->
+                <div class="flex-1 flex justify-center">
+                    <a href="index.html">
+                        <img src="https://www.baskinrobbins.com/etc/designs/br/images/header/br-logo-desktop-r.svg"
+                            alt="Baskin Robbins" class="h-12 w-auto hover:opacity-80 transition">
+                    </a>
+                </div>
+
+                <!-- Right: Sign Up | Login | Cart -->
+                <div class="flex items-center gap-3 text-sm font-medium">
+                    <a href="signup.html" class="hover:text-pink-600">Sign Up</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="login.html" class="hover:text-pink-600">Login</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="cart.html" class="flex items-center gap-1 text-pink-600">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span>Cart</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navbar -->
+        <nav class="bg-white">
+            <div class="max-w-7xl mx-auto px-4 md:px-6">
+                <ul
+                    class="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-2 text-[#402022] text-sm md:text-lg font-bold py-4">
+                    <li><a href="order&save.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Order
+                            Online</a></li>
+                    <li><a href="rewards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Rewards</a>
+                    </li>
+                    <li><a href="delivery.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Delivery</a>
+                    </li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our Menu</a>
+                    </li>
+                    <li><a href="giftcards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Giftcards</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Merchandise</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Find a
+                            Shop</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                            Story</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Franchising</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <body class="bg-gray-100 font-sans">
+
+
+            <!-- PAGE TITLE -->
+            <div class="w-full bg-white py-6 border-b">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 text-center">Payment</h1>
+                <div class="flex justify-center mt-2">
+                    <div class="w-20 h-1 bg-pink-500 rounded"></div>
+                </div>
+            </div>
+
+            <!-- PAYMENT SECTION -->
+            <div class="max-w-7xl mx-auto px-4 md:px-12 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+                <!-- Left: Order Summary -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Order Summary</h2>
+
+                    <!-- Example Item -->
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="flex items-center gap-3">
+                            <img src="flavour 3.png" alt="Product" class="w-16 h-16 object-cover rounded">
+                            <div>
+                                <p class="font-semibold">Chocolate Ice Cream</p>
+                                <p class="text-gray-500 text-sm">Qty: 1</p>
+                            </div>
+                        </div>
+                        <p class="font-semibold">$5.99</p>
+                    </div>
+
+                    <div class="flex justify-between items-center mb-2">
+                        <p class="text-gray-600">Subtotal</p>
+                        <p class="font-semibold">$5.99</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-2">
+                        <p class="text-gray-600">Tax</p>
+                        <p class="font-semibold">$0.60</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-6">
+                        <p class="text-gray-600">Total</p>
+                        <p class="font-bold text-lg">$6.59</p>
+                    </div>
+                </div>
+
+                <!-- Right: Payment Form -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4 text-center md:text-left">Billing & Payment Details</h2>
+
+                    <form class="space-y-5" action="cart.html" method="GET">
+                        <!-- Name -->
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-800 mb-1">Full Name*</label>
+                            <input type="text" placeholder="Enter your full name" name="fullname" required
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-800 mb-1">Email*</label>
+                            <input type="email" placeholder="Enter your email" name="email" required
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                        </div>
+
+                        <!-- Payment Method -->
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-800 mb-1">Payment Method*</label>
+                            <select name="payment" required
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-1 focus:ring-pink-400">
+                                <option value="">Select Payment Method</option>
+                                <option>Credit/Debit Card</option>
+                                <option>PayPal</option>
+                                <option>Apple Pay</option>
+                            </select>
+                        </div>
+
+                        <!-- Card Number -->
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-800 mb-1">Card Number*</label>
+                            <input type="text" placeholder="1234 5678 9012 3456" name="cardnumber" required
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                        </div>
+
+                        <!-- Expiry & CVV -->
+                        <div class="flex gap-4">
+                            <div class="flex-1">
+                                <label class="block text-sm font-semibold text-gray-800 mb-1">Expiry*</label>
+                                <input type="text" placeholder="MM/YY" name="expiry" required
+                                    class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                            </div>
+                            <div class="flex-1">
+                                <label class="block text-sm font-semibold text-gray-800 mb-1">CVV*</label>
+                                <input type="text" placeholder="123" name="cvv" required
+                                    class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                            </div>
+                        </div>
+
+                        <!-- Place Order Button -->
+                        <div class="flex justify-center md:justify-end">
+                            <button type="submit"
+                                class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-md transition">
+                                Place Order
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <footer class="bg-[#f7f5f3] text-[#402022] text-sm">
+                <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-8">
+
+                    <!-- Column 1 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">More Ways to BR</h4>
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Merchandise</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Mobile
+                                    App</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Gift
+                                    Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">Join The Team</h4>
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Foundation</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Careers</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Franchising</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">Company Info</h4>
+
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Our
+                                    Story</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">International</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">FAQs</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Pressroom</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Sustainability</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Social & Sign Up -->
+                    <div class="flex flex-col items-start"><br><br><br>
+                        <div class="flex space-x-4 text-2xl mb-3">
+                            <a href="#" class="text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-[#1DA1F2]"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="text-[#000000]"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                        <p>Scoop up the latest deals, flavor updates and more.</p>
+                        <a href="#"
+                            class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                            Sign Up
+                        </a>
+                    </div>
+
+                    <!-- Column 5: BR Logo + App Promo -->
+                    <div class="flex flex-col items-center md:items-start text-center md:text-left"><br><br><br>
+                        <div class="w-28 h-14 bg-white rounded-lg flex items-center justify-center mb-4">
+                            <img src="BR icon-footer.png" alt="BR Logo" class="h-48 object-contain" />
+                        </div><br>
+                        <p class="font-semibold">Even sweeter<br>on iOS & Android</p>
+                        <p class="mt-2">Get deals, order cakes, send<br>gifts and more!</p>
+                        <a href="#"
+                            class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                            Get the scoop
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Links + Copyright -->
+                <div class="border-t border-gray-300 text-xs text-gray-600">
+                    <div
+                        class="max-w-[1450px] mx-auto px-6 md:px-12 py-4 flex flex-wrap justify-center items-center gap-2 text-center">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Web Accessibility</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Terms of Use</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Your Privacy Choices</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Site Map</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">CA Transparency in Supply Chains Act</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Customer Health Data Notice</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Cookie Settings</a>
+                    </div>
+                    <p class="text-center pb-4">
+                        TM & © 2025 BR IP Holder LLC. All Rights Reserved.
+                    </p>
+                </div>
+            </footer>
+    </div>
+</body>
+</div>
+
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buy eGift Card — Baskin-Robbins</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2">
+                <img src="br-logo.svg" alt="Baskin-Robbins" class="h-8 w-auto">
+                <span class="text-xl font-bold text-[#402022]">Baskin-Robbins</span>
+            </a>
+            <nav class="text-sm">
+                <a href="giftcards.html" class="text-[#402022] font-semibold hover:text-pink-600">Gift Cards</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative h-64 sm:h-80 lg:h-96 overflow-hidden">
+        <img src="egift-hero.jpg" alt="eGift Hero" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white">Send a Baskin-Robbins eGift Card</h1>
+            <p class="mt-2 text-sm sm:text-base text-white">Instant email delivery • Personalize with message & design
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            <!-- Left: Form / Options -->
+            <div class="space-y-8">
+                <!-- Choose Design -->
+                <div class="bg-white shadow rounded-lg p-6">
+                    <h2 class="text-lg font-semibold mb-4 text-[#402022]">Design</h2>
+                    <div class="grid grid-cols-3 gap-4">
+                        <label class="cursor-pointer">
+                            <input type="radio" name="design" class="sr-only peer" checked>
+                            <div
+                                class="peer-checked:ring-2 peer-checked:ring-pink-500 peer-checked:shadow-lg rounded overflow-hidden">
+                                <img src="design1.jpg" alt="Design 1" class="w-full h-24 object-cover">
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="design" class="sr-only peer">
+                            <div
+                                class="peer-checked:ring-2 peer-checked:ring-pink-500 peer-checked:shadow-lg rounded overflow-hidden">
+                                <img src="design2.jpg" alt="Design 2" class="w-full h-24 object-cover">
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="design" class="sr-only peer">
+                            <div
+                                class="peer-checked:ring-2 peer-checked:ring-pink-500 peer-checked:shadow-lg rounded overflow-hidden">
+                                <img src="design3.jpg" alt="Design 3" class="w-full h-24 object-cover">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Choose Amount -->
+                <div class="bg-white shadow rounded-lg p-6">
+                    <h2 class="text-lg font-semibold mb-4 text-[#402022]">Amount</h2>
+                    <div class="flex flex-wrap gap-3">
+                        <label class="cursor-pointer">
+                            <input type="radio" name="amount" class="sr-only peer" checked>
+                            <div
+                                class="px-4 py-2 border border-gray-300 rounded peer-checked:border-pink-500 peer-checked:bg-pink-50">
+                                $5
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="amount" class="sr-only peer">
+                            <div
+                                class="px-4 py-2 border border-gray-300 rounded peer-checked:border-pink-500 peer-checked:bg-pink-50">
+                                $10
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="amount" class="sr-only peer">
+                            <div
+                                class="px-4 py-2 border border-gray-300 rounded peer-checked:border-pink-500 peer-checked:bg-pink-50">
+                                $25
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="amount" class="sr-only peer">
+                            <div
+                                class="px-4 py-2 border border-gray-300 rounded peer-checked:border-pink-500 peer-checked:bg-pink-50">
+                                $50
+                            </div>
+                        </label>
+                        <label class="cursor-pointer">
+                            <input type="radio" name="amount" class="sr-only peer">
+                            <div
+                                class="px-4 py-2 border border-gray-300 rounded peer-checked:border-pink-500 peer-checked:bg-pink-50">
+                                $100
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Recipient Details -->
+                <div class="bg-white shadow rounded-lg p-6 space-y-4">
+                    <h2 class="text-lg font-semibold text-[#402022]">Recipient</h2>
+                    <div>
+                        <label class="block text-sm mb-1">Name</label>
+                        <input type="text" class="w-full border border-gray-300 rounded px-3 py-2"
+                            placeholder="Recipient Name">
+                    </div>
+                    <div>
+                        <label class="block text-sm mb-1">Email</label>
+                        <input type="email" class="w-full border border-gray-300 rounded px-3 py-2"
+                            placeholder="recipient@example.com">
+                    </div>
+                </div>
+
+                <!-- Personalize & Sender -->
+                <div class="bg-white shadow rounded-lg p-6 space-y-4">
+                    <h2 class="text-lg font-semibold text-[#402022]">Personalize</h2>
+                    <div>
+                        <label class="block text-sm mb-1">Message (optional)</label>
+                        <textarea rows="3" class="w-full border border-gray-300 rounded px-3 py-2"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-sm mb-1">From (your name)</label>
+                        <input type="text" class="w-full border border-gray-300 rounded px-3 py-2"
+                            placeholder="Your name">
+                    </div>
+                </div>
+
+                <!-- Submit -->
+                <div class="bg-white shadow rounded-lg p-6 flex items-center justify-between">
+                    <a href="#" class="text-sm underline text-pink-500">Check Balance</a>
+                    <button type="submit"
+                        class="bg-pink-600 text-white px-6 py-2 rounded font-semibold hover:bg-pink-700 transition">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right: Preview -->
+            <div class="hidden lg:block">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <h3 class="text-sm font-semibold text-[#402022]">Preview</h3>
+                    <div class="mt-4 border border-gray-200 rounded overflow-hidden">
+                        <div class="bg-pink-50 p-6 text-center">
+                            <div class="text-xl font-bold text-[#402022]">$25.00</div>
+                            <div class="mt-3 text-gray-700 italic">"Your message here"</div>
+                        </div>
+                        <div class="p-4 text-xs text-gray-500">
+                            To: Recipient Name<br>
+                            Email: recipient@example.com
+                        </div>
+                        <div class="p-3 border-t border-gray-200 text-xs text-gray-500">
+                            Valid only at participating U.S. Baskin-Robbins locations. <a href="#"
+                                class="underline text-pink-500">Terms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#402022] text-white text-center py-6">
+        &copy; 2025 Baskin-Robbins. All rights reserved.
+    </footer>
+</body>
+
+</html>

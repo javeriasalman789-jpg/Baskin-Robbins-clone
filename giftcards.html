@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskin Robbins Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Page wrapper -->
+    <div class="max-w-[1450px] mx-auto border-x-[2px] border-[#d9bfb7] bg-white overflow-hidden">
+
+        <!-- Header -->
+        <header class="w-full border-b">
+            <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between relative">
+                <div class="flex items-center gap-2">
+                    <button class="bg-pink-600 text-white p-2 rounded-full shadow-md">
+                        <i class="fa fa-bars text-lg"></i>
+                    </button>
+                    <div class="h-8 w-px bg-pink-600"></div>
+                </div>
+
+                <!-- Center: Logo -->
+                <div class="flex-1 flex justify-center">
+                    <a href="index.html">
+                        <img src="https://www.baskinrobbins.com/etc/designs/br/images/header/br-logo-desktop-r.svg"
+                            alt="Baskin Robbins" class="h-12 w-auto hover:opacity-80 transition">
+                    </a>
+                </div>
+
+                <!-- Right: Sign Up | Login | Cart -->
+                <div class="flex items-center gap-3 text-sm font-medium">
+                    <a href="signup.html" class="hover:text-pink-600">Sign Up</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="login.html" class="hover:text-pink-600">Login</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="cart.html" class="flex items-center gap-1 text-pink-600">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span>Cart</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navbar -->
+        <nav class="bg-white">
+            <div class="max-w-7xl mx-auto px-4 md:px-6">
+                <ul
+                    class="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-2 text-[#402022] text-sm md:text-lg font-bold py-4">
+                    <li><a href="order&save.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Order
+                            Online</a></li>
+                    <li><a href="rewards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Rewards</a>
+                    </li>
+                    <li><a href="delivery.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Delivery</a>
+                    </li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our Menu</a>
+                    </li>
+                    <li><a href="giftcards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Giftcards</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Merchandise</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Find a
+                            Shop</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                            Story</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Franchising</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="relative bg-cover bg-center h-[500px]"
+            style="background-image: url('gift_card_hero_desktop.png');">
+        </section>
+
+        <!-- Popup box -->
+        <div
+            class="absolute top-[50%] left-10 sm:left-16 md:left-24 lg:left-36 bg-[#402022] text-white shadow-lg p-6 sm:p-8 w-[85%] sm:w-[60%] md:w-[40%] lg:w-[25%] min-w-[280px] z-10">
+
+            <!-- Heading -->
+            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mt-3 mb-4">
+                Give the Gift Of<br>
+                Ice Cream
+            </h1>
+
+            <!-- Underline -->
+            <div class="w-24 sm:w-28 h-1 bg-pink-500 mx-auto mb-8"></div>
+
+            <!-- Paragraph -->
+            <p class="text-left text-white font-semibold leading-relaxed text-sm sm:text-base mb-3">
+                Baskin-Robbins gift card make the perfect<br>
+                gift for everyone on your list.Whether<br>
+                celebrating a birthday ,holiday or just<br>
+                making it through the week,say Cheers in the
+                sweetest way.
+            </p><br>
+            <a href="order&save.html"
+                class="bg-pink-600 text-white font-semibold px-2 py-2 text-base rounded hover:bg-pink-700 transition block mx-auto mb-3 text-center">
+                Buy Online
+            </a>
+        </div>
+        </section>
+        <!-- Space after popup -->
+        <div class="h-40"></div>
+        <!-- Gift Card Info Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+
+                <!-- Left Box: Send a Gift Card -->
+                <div class="flex flex-col items-center">
+                    <!-- Icon -->
+                    <img src="gift icon.png" alt="Send Gift Card" class="w-32 h-32 mb-6">
+
+                    <!-- Heading -->
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#402022] mb-3">
+                        Send a Gift Card
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="text-black text-2sm leading-relaxed max-w-xs mb-6">
+                        eGift cards are available for any occasion and are
+                        sent right to their inbox.Or send a physical gift
+                        card through the mail- you can even personalize
+                        with your own photo to create a custom Baskin-
+                        Robbins gift card.
+
+                    </p>
+
+                    <!-- Buttons  -->
+
+
+                    <div class="flex gap-6 self-start pl-16">
+                        <a href="Buy eGift.html"
+                            class="text-[#402022] text-5sm font-semibold border-b-4 border-pink-600 pb-1 hover:text-[#5a2d28] transition leading-relaxed">
+                            Buy eGift
+                        </a>
+                        <a href="orderfordelivery.html"
+                            class="text-[#402022] text-5sm font-semibold border-b-4 border-pink-600 pb-1 hover:text-[#5a2d28] transition leading-relaxed">
+                            Ship A Card
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Center Box: Check Balance or Add Value -->
+                <div class="flex flex-col items-center">
+                    <!-- Icon -->
+                    <img src="balance icon.png" alt="Check Balance" class="w-32 h-32 mb-6">
+
+                    <!-- Heading -->
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#402022] mb-3">
+                        Check Balance or Add Value
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="text-black text-2sm leading-relaxed max-w-xs mb-6">
+                        Plan ahead for your next visit & check the
+                        balance on your gift card.Need to reload? Get
+                        the Baskin-Robbins App to set aside some Ice
+                        cream money.you can also send eGift cards right
+                        from the App.
+                    </p>
+
+                    <!-- Single Underlined Button -->
+                    <div class="flex gap-6 self-start pl-16">
+                        <a href="order&save.html"
+                            class="text-[#402022] text-5sm font-semibold border-b-4 border-pink-600 pb-1 hover:text-[#5a2d28] transition leading-relaxed">
+                            Check Balance
+                        </a>
+                        <a href="orderfordelivery.html"
+                            class="text-[#402022] text-5sm font-semibold border-b-4 border-pink-600 pb-1 hover:text-[#5a2d28] transition leading-relaxed">
+                            Get The App
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Box: Buy in Bulk -->
+                <div class="flex flex-col items-center">
+                    <!-- Icon -->
+                    <img src="ice cream icon.png" alt="Buy in Bulk" class="w-32 h-32 mb-6">
+
+                    <!-- Heading -->
+                    <h3 class="text-2xl md:text-3xl font-bold text-[#402022] mb-3">
+                        Buy in Bulk
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="text-black text-2sm leading-relaxed max-w-xs mb-6">
+                        Everyone needs an icecream Baskin-
+                        Robbins gift cards are the perfect way to
+                        motivate, recognize and rewards your employees
+                        and customers.
+                    </p><br>
+
+                    <!-- Buttons (side-by-side, underlined) -->
+                    <div class="flex gap-6 self-start pl-16">
+                        <a href="order&save.html"
+                            class="text-[#402022] text-5sm font-semibold border-b-4 border-pink-600 pb-1 hover:text-[#5a2d28] transition leading-relaxed">
+                            Buy in Bulk
+                        </a>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- Acceptance Info Section -->
+        <!-- Acceptance Info Section -->
+        <section class="py-10 bg-white">
+            <div class="max-w-7xl mx-auto px-6 md:px-12">
+
+                <!-- Text Block -->
+                <div class="text-left">
+                    <!-- Small Heading -->
+                    <h4 class="text-sm sm:text-base md:text-lg font-semibold text-gray-800 mb-3">
+                        Accepted at participating Baskin-Robbins U.S. locations
+                    </h4>
+
+                    <!-- Paragraph -->
+                    <p class="text-gray-600 text-xs sm:text-base leading-relaxed w-full">
+                        Baskin-Robbins Gift Card Terms and Conditions: Cards can be loaded or recharged from $5 up to
+                        $100. Card good only toward purchases of Baskin-Robbins or Dunkin’ products at participating
+                        Baskin-Robbins or Dunkin’ US locations. No expiration date or management fees. The purchase
+                        and/or reload of a Baskin-Robbins card with another Baskin-Robbins card or a Dunkin’ card is
+                        prohibited. Card value may not be redeemed for cash, check or credit unless required by law. Use
+                        of card constitutes acceptance of Terms of Use (including Agreement to Arbitrate), available at
+                        BaskinRobbins.com. We are not responsible for lost or stolen cards. This card may not be resold
+                        by any unauthorized vendors. Unauthorized resale or attempted resale is grounds for
+                        cancellation. Cards obtained through unauthorized channels will be void. Card issued by SVC
+                        Service II Inc. Call 1-888-729-2489 to check balance on the card or for customer services
+                        (please have card number ready).
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BIG CTA / "Footer-like" Section -->
+        <section class="bg-[#d9bfb7] text-[#402022]">
+            <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-20 md:py-28">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+
+                    <!-- LEFT: Image -->
+                    <div class="md:w-1/2 flex justify-center">
+                        <img src="footer image.png" alt="BR hero image"
+                            class="w-full max-w-[520px] object-cover drop-shadow-lg" />
+                    </div>
+
+                    <!-- RIGHT: Text -->
+                    <div class="md:w-1/2 flex flex-col justify-center items-center text-center">
+                        <h3 class="text-2xl md:text-4xl font-bold leading-snug">
+                            Fast Checkout, Easy Pickup <br>
+                            Sweet Savings
+                        </h3>
+
+                        <p class="mt-2 text-base md:text-lg font-normal">
+                            with
+                        </p>
+
+                        <p class="mt-2 text-xl md:text-4xl font-bold whitespace-nowrap">
+                            Baskin-Robbins Rewards<span class="align-super text-sm">®</span> in the BR App
+                        </p>
+
+                        <p class="mt-4 text-lg text-[#402022] md:text-base max-w-[460px] leading-relaxed">
+                            Available for free on iOS and Android.
+                        </p>
+
+                        <!-- App Store + Play Store badges -->
+                        <div class="mt-6 flex justify-center gap-4">
+                            <img src="app_store.png" alt="App Store"
+                                class="h-12 md:h-14 object-contain cursor-pointer" />
+                            <img src="play_store.png" alt="Google Play"
+                                class="h-12 md:h-14 object-contain cursor-pointer" />
+                        </div>
+
+                        <!-- CTA Button (rectangular + smaller) -->
+
+                        <a href="menu.html"
+                            class="mt-4 w-80 h-10 bg-pink-600 text-white font-semibold flex items-center justify-center rounded-md hover:bg-[#402022] transition">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-[#f7f5f3] text-[#402022] text-sm">
+            <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-8">
+
+                <!-- Column 1 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">More Ways to BR</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Merchandise</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Mobile
+                                App</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Gift
+                                Cards</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">Join The Team</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Foundation</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Careers</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Franchising</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div><br><br><br>
+                    <h4 class="font-bold mb-2">Company Info</h4>
+
+                    <ul class="space-y-1">
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Our
+                                Story</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">International</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">FAQs</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Pressroom</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Sustainability</a>
+                        </li>
+                        <li><a href="#"
+                                class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social & Sign Up -->
+                <div class="flex flex-col items-start"><br><br><br>
+                    <div class="flex space-x-4 text-2xl mb-3">
+                        <a href="#" class="text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-[#1DA1F2]"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-[#000000]"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p>Scoop up the latest deals, flavor updates and more.</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                        Sign Up
+                    </a>
+                </div>
+
+                <!-- Column 5: BR Logo + App Promo -->
+                <div class="flex flex-col items-center md:items-start text-center md:text-left"><br><br><br>
+                    <div class="w-28 h-14 bg-white rounded-lg flex items-center justify-center mb-4">
+                        <img src="BR icon-footer.png" alt="BR Logo" class="h-48 object-contain" />
+                    </div><br>
+                    <p class="font-semibold">Even sweeter<br>on iOS & Android</p>
+                    <p class="mt-2">Get deals, order cakes, send<br>gifts and more!</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                        Get the scoop
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Bottom Links + Copyright -->
+            <div class="border-t border-gray-300 text-xs text-gray-600">
+                <div
+                    class="max-w-[1450px] mx-auto px-6 md:px-12 py-4 flex flex-wrap justify-center items-center gap-2 text-center">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Web Accessibility</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Terms of Use</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Your Privacy Choices</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Site Map</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">CA Transparency in Supply Chains Act</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Customer Health Data Notice</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="hover:underline">Cookie Settings</a>
+                </div>
+                <p class="text-center pb-4">
+                    TM & © 2025 BR IP Holder LLC. All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <!-- Extra space below
+                <div class="h-16"></div> -->
+
+
+
+    <!-- Dummy content so scrolling works -->
+    <div class="h-[10px]"></div>
+    </section>
+</body>
+
+
+</html>

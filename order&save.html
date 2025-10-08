@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+    <title>Baskin Robbins Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-white font-sans">
+
+    <!-- Page wrapper with vertical brown border lines -->
+
+    <body class="bg-gray-100 font-sans">
+        <!-- Page wrapper with visible borders -->
+        <div class="max-w-[1450px] mx-auto border-x-[2px] border-[#d9bfb7] bg-white">
+
+            <!-- Header -->
+            <header class="w-full border-b">
+                <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between relative">
+
+                    <!-- Left: Sidebar + vertical line -->
+                    <div class="flex items-center gap-2">
+                        <button class="bg-pink-600 text-white p-2 rounded-full shadow-md">
+                            <i class="fa fa-bars text-lg"></i>
+                        </button>
+                        <div class="h-8 w-px bg-pink-600"></div>
+                    </div>
+
+                    <!-- Center: Logo -->
+                    <div class="flex-1 flex justify-center">
+                        <a href="index.html">
+                            <img src="https://www.baskinrobbins.com/etc/designs/br/images/header/br-logo-desktop-r.svg"
+                                alt="Baskin Robbins" class="h-12 w-auto hover:opacity-80 transition">
+                        </a>
+                    </div>
+
+                    <!-- Right: Sign Up | Login | Cart -->
+                    <div class="flex items-center gap-3 text-sm font-medium">
+                        <a href="signup.html" class="hover:text-pink-600">Sign Up</a>
+                        <span class="text-gray-300">|</span>
+                        <a href="login.html" class="hover:text-pink-600">Login</a>
+                        <span class="text-gray-300">|</span>
+                        <a href="cart.html" class="flex items-center gap-1 text-pink-600">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>Cart</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main navbar -->
+            <nav class="bg-white">
+                <div class="max-w-7xl mx-auto px-6">
+                    <ul class="flex flex-wrap justify-center gap-x-8 gap-y-2 text-[#402022] text-lg font-bold py-4">
+                        <li><a href="order&save.html"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Order
+                                Online</a></li>
+                        <li><a href="rewards.html"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Rewards</a>
+                        </li>
+                        <li><a href="delivery.html"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Delivery</a>
+                        </li>
+                        <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                                Menu</a></li>
+                        <li><a href="giftcards.html"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Giftcards</a>
+                        </li>
+                        <li><a href="#"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Merchandise</a>
+                        </li>
+                        <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Find a
+                                Shop</a></li>
+                        <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                                Story</a></li>
+                        <li><a href="#"
+                                class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Franchising</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </header>
+
+            <!-- Header -->
+            <div class="w-full bg-white">
+                <h1 class="text-center text-2xl md:text-3xl font-bold text-gray-900 py-6">
+                    Find a Shop
+                </h1>
+            </div>
+
+            <div class="w-full bg-[#4b1e1e] py-4 px-4 sm:px-6 flex justify-start">
+                <!-- Container holding input and search button -->
+                <div
+                    class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-2 sm:space-y-0 sm:space-x-2 w-full max-w-md">
+                    <!-- Input Box -->
+                    <div class="flex items-center bg-white rounded-md shadow-md w-full">
+                        <input type="text" placeholder="Enter city, state, or zip code"
+                            class="flex-1 px-3 py-2 rounded-md focus:outline-none text-sm w-full">
+                    </div>
+
+                    <!-- Search Icon Button -->
+                    <button
+                        class="bg-pink-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-pink-700 w-full sm:w-auto">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Content Section -->
+            <div class="flex flex-col md:flex-row w-full max-w-7xl mx-auto ">
+
+                <!-- Left Text -->
+                <div class="md:w-1/3 flex items-center justify-center md:justify-start ">
+                    <p class=" md:text-lg text-bold text-gray-700 font-medium text-center md:text-left">
+                        To start your order <br>
+                        or find your nearest location <br>
+                        please enter your city, state <br>
+                        or zip code in the search field.
+                    </p>
+                </div>
+
+                <!-- Right Map with vertical line separator -->
+                <div class="md:w-full mt-6 md:mt-0 flex border-l border-gray-300">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55247652.137908!2d-118.4117322!3d37.2754976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE2JzMxLjgiTiAxMTjCsDI0JzU0LjIiVw!5e0!3m2!1sen!2sus!4v1632367139939!5m2!1sen!2sus"
+                        class="w-full h-[500px] rounded-lg shadow-lg" style="border:0;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div><br><br>
+
+            <!-- Footer -->
+            <footer class="bg-[#f7f5f3] text-[#402022] text-sm">
+                <div class="max-w-[1450px] mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-8">
+
+                    <!-- Column 1 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">More Ways to BR</h4>
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Merchandise</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Mobile
+                                    App</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Gift
+                                    Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">Join The Team</h4>
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Foundation</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Careers</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Franchising</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div><br><br><br>
+                        <h4 class="font-bold mb-2">Company Info</h4>
+
+                        <ul class="space-y-1">
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Our
+                                    Story</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">International</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">FAQs</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Pressroom</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Sustainability</a>
+                            </li>
+                            <li><a href="#"
+                                    class="hover:underline hover:underline-offset-2 decoration-pink-600 text-black">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Social & Sign Up -->
+                    <div class="flex flex-col items-start"><br><br><br>
+                        <div class="flex space-x-4 text-2xl mb-3">
+                            <a href="#" class="text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-[#1DA1F2]"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="text-[#000000]"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                        <p>Scoop up the latest deals, flavor updates and more.</p>
+                        <a href="signup.html"
+                            class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                            Sign Up
+                        </a>
+                    </div>
+
+                    <!-- Column 5: BR Logo + App Promo -->
+                    <div class="flex flex-col items-center md:items-start text-center md:text-left"><br><br><br>
+                        <div class="w-28 h-14 bg-white rounded-lg flex items-center justify-center mb-4">
+                            <img src="BR icon-footer.png" alt="BR Logo" class="h-48 object-contain" />
+                        </div><br>
+                        <p class="font-semibold">Even sweeter<br>on iOS & Android</p>
+                        <p class="mt-2">Get deals, order cakes, send<br>gifts and more!</p>
+                        <a href="#"
+                            class="mt-2 font-semibold underline underline-offset-2 decoration-pink-600 text-black hover:text-[#402022]">
+                            Get the scoop
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Links + Copyright -->
+                <div class="border-t border-gray-300 text-xs text-gray-600">
+                    <div
+                        class="max-w-[1450px] mx-auto px-6 md:px-12 py-4 flex flex-wrap justify-center items-center gap-2 text-center">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Web Accessibility</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Terms of Use</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Your Privacy Choices</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Site Map</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">CA Transparency in Supply Chains Act</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Customer Health Data Notice</a>
+                        <span class="text-gray-400">|</span>
+                        <a href="#" class="hover:underline">Cookie Settings</a>
+                    </div>
+                    <p class="text-center pb-4">
+                        TM & © 2025 BR IP Holder LLC. All Rights Reserved.
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+        </div>
+
+
+    </body>
+
+</html>

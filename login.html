@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskin Robbins Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Page wrapper -->
+    <div class="max-w-[1450px] mx-auto border-x-[2px] border-[#d9bfb7] bg-white overflow-hidden">
+
+        <!-- Header -->
+        <header class="w-full border-b">
+            <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between relative">
+                <!-- Left: Sidebar -->
+                <div class="flex items-center gap-2">
+                    <button class="bg-pink-600 text-white p-2 rounded-full shadow-md md:hidden">
+                        <i class="fa fa-bars text-lg"></i>
+                    </button>
+                    <div class="hidden md:block h-8 w-px bg-pink-600"></div>
+                </div>
+
+                <!-- Center: Logo -->
+                <div class="flex-1 flex justify-center">
+                    <a href="index.html">
+                        <img src="https://www.baskinrobbins.com/etc/designs/br/images/header/br-logo-desktop-r.svg"
+                            alt="Baskin Robbins" class="h-12 w-auto hover:opacity-80 transition">
+                    </a>
+                </div>
+
+                <!-- Right: Sign Up | Login | Cart -->
+                <div class="flex items-center gap-3 text-sm font-medium">
+                    <a href="signup.html" class="hover:text-pink-600">Sign Up</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="login.html" class="hover:text-pink-600">Login</a>
+                    <span class="text-gray-300">|</span>
+                    <a href="cart.html" class="flex items-center gap-1 text-pink-600">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span>Cart</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navbar -->
+        <nav class="bg-white">
+            <div class="max-w-7xl mx-auto px-4 md:px-6">
+                <ul
+                    class="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-2 text-[#402022] text-sm md:text-lg font-bold py-4">
+                    <li><a href="order&save.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Order
+                            Online</a></li>
+                    <li><a href="rewards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Rewards</a>
+                    </li>
+                    <li><a href="delivery.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Delivery</a>
+                    </li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our Menu</a>
+                    </li>
+                    <li><a href="giftcards.html"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Giftcards</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Merchandise</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Find a
+                            Shop</a></li>
+                    <li><a href="#" class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Our
+                            Story</a></li>
+                    <li><a href="#"
+                            class="pb-1 hover:text-pink-600 hover:border-b-4 hover:border-pink-600">Franchising</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Login Section -->
+        <main class="max-w-7xl mx-auto px-4 md:px-12 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+                <!-- LEFT IMAGE -->
+                <div class="flex justify-center md:justify-start">
+                    <img src="LoginCup.png" alt="Baskin Robbins Drink" class="w-64 md:w-[240px] object-contain">
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="max-w-md mx-auto w-full">
+                    <!-- Heading -->
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 text-center">Log In</h1>
+                    <div class="flex justify-center">
+                        <div class="w-20 h-1 bg-pink-500 rounded mt-2 mb-4"></div>
+                    </div>
+
+                    <p class="text-gray-700 mb-6 text-center">Your favorite flavors await.</p>
+
+                    <form class="space-y-5" action="#" method="post">
+                        <!-- Email -->
+                        <div>
+                            <label class="block text-sm font-semibold mb-1 text-black">Email*</label>
+                            <input type="email" name="email" placeholder="Enter your email" required
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 bg-white autofill:bg-white focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                        </div>
+
+                        <!-- Password -->
+                        <div>
+                            <div class="flex justify-between items-center mb-1">
+                                <label class="block text-sm font-semibold text-gray-800">Password*</label>
+
+                                <!-- Checkbox trigger for side panel -->
+                                <label for="forgot-panel"
+                                    class="cursor-pointer text-sm text-pink-600 font-semibold hover:underline">
+                                    Forgot Password?
+                                </label>
+                            </div>
+                            <input type="password" required placeholder="Please enter your password"
+                                class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                        </div>
+
+                        <!-- Button -->
+                        <div class="flex justify-center">
+                            <button type="submit"
+                                class="bg-pink-500 hover:bg-pink-600 text-white font-semibold text-lg w-40 py-2 rounded-md transition">
+                                Log In
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Divider Line -->
+                    <hr class="my-8 border-gray-300">
+
+                    <!-- Sign Up -->
+                    <p class="text-center text-gray-700 text-sm md:text-base">
+                        Don’t have an account yet?
+                        <a href="signup.html" class="text-pink-600 font-semibold border-b border-pink-600">Sign up</a>
+                    </p>
+
+
+                </div>
+            </div>
+        </main>
+
+        <!-- SIDE PANEL (Forgot Password) -->
+        <input type="checkbox" id="forgot-panel" class="hidden peer" />
+        <div class="fixed top-0 right-0 h-full w-1/2 max-w-[800px]
+         bg-white shadow-2xl translate-x-full peer-checked:translate-x-0 transition-transform duration-300 z-50 
+         flex items-center justify-center">
+
+            <label for="forgot-panel"
+                class="absolute top-4 right-4 cursor-pointer text-gray-600 hover:text-gray-900 text-2xl font-bold">&times;</label>
+
+            <div class="p-6 w-full max-w-md text-center">
+                <!-- Heading -->
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Forgot Password</h2>
+                <!-- Underline -->
+                <div class="w-16 h-1 bg-pink-600 mx-auto mb-6 rounded"></div>
+
+                <!-- Instructions -->
+                <p class="text-black mb-4">
+                    Enter your email address and we’ll send<br>
+                    a link to help reset your password.
+                </p>
+
+                <!-- Form -->
+                <form class="space-y-4" validate>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-800 mb-1">Email*</label>
+                        <input type="email" placeholder="Enter your Gmail (e.g., name@gmail.com)" required
+                            pattern="[a-zA-Z0-9._%+-]+@gmail\.com$"
+                            class="w-full border border-gray-300 rounded-md py-2 px-3 placeholder-gray-400 bg-white autofill:bg-white focus:outline-none focus:ring-1 focus:ring-pink-400" />
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 rounded-md">
+                        Send Reset Link
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-[#f7f5f3] text-[#402022] text-sm">
+            <div class="px-4 md:px-12 py-12 grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-8">
+                <!-- Column 1 -->
+                <div>
+                    <h4 class="font-bold mb-2">More Ways to BR</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Merchandise</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Mobile App</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <!-- Column 2 -->
+                <div>
+                    <h4 class="font-bold mb-2">Join The Team</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Foundation</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Careers</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Franchising</a></li>
+                    </ul>
+                </div>
+                <!-- Column 3 -->
+                <div>
+                    <h4 class="font-bold mb-2">Company Info</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Our Story</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">International</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">FAQs</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Pressroom</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Sustainability</a></li>
+                        <li><a href="#" class="hover:underline decoration-pink-600 text-black">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Column 4 -->
+                <div class="flex flex-col items-start">
+                    <div class="flex space-x-4 text-2xl mb-3">
+                        <a href="#" class="text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-[#1DA1F2]"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-[#000000]"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p>Scoop up the latest deals, flavor updates and more.</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline decoration-pink-600 text-black hover:text-[#402022]">
+                        Sign Up
+                    </a>
+                </div>
+                <!-- Column 5 -->
+                <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                    <div class="w-28 h-14 bg-white rounded-lg flex items-center justify-center mb-4">
+                        <img src="BR icon-footer.png" alt="BR Logo" class="h-12 object-contain" />
+                    </div>
+                    <p class="font-semibold">Even sweeter<br>on iOS & Android</p>
+                    <p class="mt-2">Get deals, order cakes, send gifts and more!</p>
+                    <a href="#"
+                        class="mt-2 font-semibold underline decoration-pink-600 text-black hover:text-[#402022]">
+                        Get the scoop
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom Links + Copyright -->
+            <div
+                class="border-t border-gray-300 text-xs text-gray-600 px-4 md:px-12 py-4 text-center flex flex-wrap justify-center gap-2">
+                <a href="#" class="hover:underline">Privacy Policy</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Web Accessibility</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Terms of Use</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Your Privacy Choices</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Site Map</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">CA Transparency in Supply Chains Act</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Customer Health Data Notice</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="hover:underline">Cookie Settings</a>
+            </div>
+            <p class="text-center pb-4">
+                TM & © 2025 BR IP Holder LLC. All Rights Reserved.
+            </p>
+        </footer>
+
+    </div> <!-- End Page Wrapper -->
+
+</body>
+
+</html>
